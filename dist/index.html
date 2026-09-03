@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="RuleRail turns changing payment standards into bank-specific rules, executable checks and provable client readiness." />
+    <meta name="theme-color" content="#07131c" />
+    <title>RuleRail — Payment Standards Intelligence</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./analytics.js"></script>
+    <script defer src="/_vercel/insights/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar" aria-label="Primary navigation">
+        <div class="brand-block">
+          <a class="brand" href="#command" aria-label="RuleRail command center">
+            <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span><strong>RuleRail</strong><small>Standards intelligence</small></span>
+          </a>
+          <button class="icon-button close-nav" id="close-nav" aria-label="Close navigation">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+
+        <nav class="nav-list">
+          <p class="nav-label">Control room</p>
+          <a class="nav-item active" href="#command" data-view="command"><span class="nav-icon">⌁</span><span>Command Center</span></a>
+          <a class="nav-item" href="#standards" data-view="standards"><span class="nav-icon">◫</span><span>Standards Hub</span><b>7</b></a>
+          <a class="nav-item" href="#comparison" data-view="comparison"><span class="nav-icon">⇄</span><span>Bank Comparison</span></a>
+          <a class="nav-item" href="#validation" data-view="validation"><span class="nav-icon">✓</span><span>Validation Lab</span></a>
+          <p class="nav-label">Migration</p>
+          <a class="nav-item" href="#clients" data-view="clients"><span class="nav-icon">◎</span><span>Client Readiness</span><b class="warn-count">12</b></a>
+          <a class="nav-item" href="#impact" data-view="impact"><span class="nav-icon">⌘</span><span>Change Impact</span></a>
+          <a class="nav-item" href="#certification" data-view="certification"><span class="nav-icon">◇</span><span>Certification</span></a>
+        </nav>
+
+        <div class="sidebar-foot">
+          <div class="tenant-card">
+            <span class="tenant-logo">NB</span>
+            <span><strong>Northstar Bank</strong><small>Demo workspace</small></span>
+            <button aria-label="Workspace options">•••</button>
+          </div>
+          <p>Public prototype · Synthetic data<br />RuleRail does not process payments.</p>
+        </div>
+      </aside>
+
+      <button class="nav-scrim" id="nav-scrim" aria-label="Close navigation"></button>
+
+      <div class="workspace">
+        <header class="topbar">
+          <button class="icon-button menu-button" id="menu-button" aria-label="Open navigation"><span></span><span></span><span></span></button>
+          <div class="environment-pill"><i></i> Demo environment</div>
+          <div class="topbar-actions">
+            <button class="text-button" id="reset-demo">Reset demo</button>
+            <a class="source-button" href="https://github.com/gegzakh/RuleRail" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+            <button class="avatar" aria-label="Open account menu">GZ</button>
+          </div>
+        </header>
+
+        <main id="main-content" tabindex="-1">
+          <section class="view active" id="view-command" data-view-panel="command" aria-labelledby="command-title">
+            <div class="page-heading heading-with-status">
+              <div>
+                <p class="eyebrow">Payment change control</p>
+                <h1 id="command-title">Command Center</h1>
+                <p>One operational view of changing standards, bank policy and client readiness.</p>
+              </div>
+              <div class="as-of"><span>Rule baseline</span><strong>03 Sep 2026 · 09:00 UTC</strong></div>
+            </div>
+
+            <article class="deadline-brief">
+              <div class="brief-signal"><span>6</span><small>days to EPC review</small></div>
+              <div class="brief-copy">
+                <div class="status-line"><span class="status status-amber">Decision pending</span><span class="authority">EPC · Postal address format</span></div>
+                <h2>Two rails. Two timelines. One controlled response.</h2>
+                <p>EPC still points to 15 November 2026 while its board reviews the position on 9 September. Swift has deferred its SR2026 payments changes and has not published a replacement date.</p>
+              </div>
+              <div class="brief-actions">
+                <button class="primary-button" data-go="impact">Review change impact</button>
+                <a class="secondary-button" href="https://www.europeanpaymentscouncil.eu/news-insights/news/november-2026-end-date-unstructured-address-format-epc-payment-scheme" target="_blank" rel="noreferrer" data-track-source="epc-deadline">Official source ↗</a>
+              </div>
+            </article>
+
+            <div class="kpi-grid">
+              <article class="kpi-card"><div><span>Active rules</span><small class="delta neutral">2 under review</small></div><strong>148</strong><p>Across 6 schemes and 3 profiles</p></article>
+              <article class="kpi-card"><div><span>Impacted clients</span><small class="delta negative">12 blocked</small></div><strong>42</strong><p>of 68 assessed corporates</p></article>
+              <article class="kpi-card"><div><span>Latest test pass</span><small class="delta positive">↑ 6.8%</small></div><strong>78.4%</strong><p>134 validation runs this month</p></article>
+              <article class="kpi-card"><div><span>High findings</span><small class="delta positive">↓ 9 this week</small></div><strong>23</strong><p>Most common: missing town name</p></article>
+            </div>
+
+            <div class="dashboard-grid">
+              <article class="panel span-7">
+                <div class="panel-heading">
+                  <div><p class="eyebrow">Regulatory radar</p><h2>Deadline watch</h2></div>
+                  <button class="link-button" data-go="standards">Open standards hub →</button>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-item urgent">
+                    <div class="date-tile"><strong>09</strong><span>SEP 26</span></div>
+                    <div><span class="status status-amber">Review</span><h3>EPC PSMB decision checkpoint</h3><p>Decision could affect the current 15 November date.</p></div>
+                    <button class="icon-link" data-go="impact" aria-label="Review EPC decision impact">→</button>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="date-tile"><strong>15</strong><span>NOV 26</span></div>
+                    <div><span class="status status-red">Current date</span><h3>EPC unstructured-address end date</h3><p>SCT, SCT Inst, SDD Core, SDD B2B and OCT Inst.</p></div>
+                    <a class="icon-link" href="https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/epc-guidance-document-provision-addresses-under-epc-payment" target="_blank" rel="noreferrer" aria-label="Open EPC guidance">↗</a>
+                  </div>
+                  <div class="timeline-item muted">
+                    <div class="date-tile deferred"><strong>—</strong><span>TBD</span></div>
+                    <div><span class="status status-slate">Deferred</span><h3>Swift SR2026 payments changes</h3><p>Community consultation underway; update expected by December.</p></div>
+                    <a class="icon-link" href="https://www.swift.com/news-events/news/swift-accepts-community-request-extend-structured-address-migration-iso-20022-payment-messages" target="_blank" rel="noreferrer" aria-label="Open Swift update">↗</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="panel span-5 readiness-panel">
+                <div class="panel-heading"><div><p class="eyebrow">Corporate portfolio</p><h2>Readiness distribution</h2></div><span class="micro-badge">68 clients</span></div>
+                <div class="donut-wrap">
+                  <div class="donut" aria-label="41 percent of clients ready"><span><strong>41%</strong><small>ready</small></span></div>
+                  <div class="legend-list">
+                    <button data-client-filter="Ready"><i class="teal"></i><span>Ready / certified</span><strong>28</strong></button>
+                    <button data-client-filter="Testing"><i class="blue"></i><span>Testing</span><strong>18</strong></button>
+                    <button data-client-filter="Blocked"><i class="amber"></i><span>Blocked</span><strong>12</strong></button>
+                    <button data-client-filter="Not assessed"><i class="slate"></i><span>Not assessed</span><strong>10</strong></button>
+                  </div>
+                </div>
+                <button class="wide-secondary" data-go="clients">Open client portfolio →</button>
+              </article>
+
+              <article class="panel span-12">
+                <div class="panel-heading"><div><p class="eyebrow">Attention queue</p><h2>Priority actions</h2></div><span class="updated">Updated 8 min ago</span></div>
+                <div class="action-table-wrap">
+                  <table class="data-table compact-table">
+                    <thead><tr><th>Action</th><th>Owner</th><th>Scope</th><th>Due</th><th>Status</th><th></th></tr></thead>
+                    <tbody>
+                      <tr><td><strong>Approve EPC hybrid-address overlay</strong><small>Profile release RR-EPC-2026.11</small></td><td><span class="person"><i>AM</i>A. Meyer</span></td><td>5 schemes</td><td class="danger-text">06 Sep</td><td><span class="status status-amber">In review</span></td><td><button class="row-action" data-go="standards">Open</button></td></tr>
+                      <tr><td><strong>Resolve missing town-name findings</strong><small>Client test cohort 03</small></td><td><span class="person"><i>LK</i>L. Klein</span></td><td>9 clients</td><td>10 Sep</td><td><span class="status status-red">Blocked</span></td><td><button class="row-action" data-go="clients">Open</button></td></tr>
+                      <tr><td><strong>Re-plan Swift readiness milestone</strong><small>Original SR2026 milestone deferred</small></td><td><span class="person"><i>RV</i>R. Varga</span></td><td>CBPR+</td><td>18 Sep</td><td><span class="status status-slate">Needs decision</span></td><td><button class="row-action" data-go="impact">Open</button></td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="view" id="view-standards" data-view-panel="standards" aria-labelledby="standards-title">
+            <div class="page-heading">
+              <p class="eyebrow">Governed source of truth</p>
+              <h1 id="standards-title">Standards Hub</h1>
+              <p>Trace every executable requirement back to its authority, version and effective date.</p>
+            </div>
+            <div class="source-strip">
+              <article><span class="source-monogram epc">EPC</span><div><strong>European Payments Council</strong><small>4 sources · 31 normalized rules</small></div><span class="source-state">Monitored</span></article>
+              <article><span class="source-monogram swift">S</span><div><strong>Swift Standards</strong><small>3 sources · 22 normalized rules</small></div><span class="source-state review">Change detected</span></article>
+              <article><span class="source-monogram bank">NB</span><div><strong>Northstar policy</strong><small>2 overlays · 9 bank rules</small></div><span class="source-state">Approved</span></article>
+            </div>
+            <article class="panel">
+              <div class="toolbar">
+                <label class="search-field"><span class="sr-only">Search rules</span><i aria-hidden="true">⌕</i><input id="rule-search" type="search" placeholder="Search rules, fields or message types" /></label>
+                <label class="select-field">Authority<select id="rule-authority"><option value="all">All authorities</option><option>EPC</option><option>Swift</option><option>Northstar Bank</option></select></label>
+                <label class="select-field">Status<select id="rule-status"><option value="all">All states</option><option>Effective</option><option>Under review</option><option>Deferred</option></select></label>
+                <span class="result-count" id="rule-count">7 rules</span>
+              </div>
+              <div class="rule-list" id="rule-list"></div>
+            </article>
+          </section>
+
+          <section class="view" id="view-comparison" data-view-panel="comparison" aria-labelledby="comparison-title">
+            <div class="page-heading heading-with-status">
+              <div><p class="eyebrow">Multibank intelligence</p><h1 id="comparison-title">Bank Comparison</h1><p>See where scheme baselines and bank delivery profiles diverge.</p></div>
+              <span class="demo-note">Illustrative bank profiles</span>
+            </div>
+            <article class="scenario-bar">
+              <label>Scheme<select id="compare-scheme"><option value="SCT Inst">SCT Inst</option><option value="SCT">SCT</option><option value="CBPR+">CBPR+</option></select></label>
+              <label>Message<select><option>pain.001.001.09</option><option>pacs.008.001.08</option></select></label>
+              <label>Execution date<input type="date" value="2026-11-20" /></label>
+              <label>Channel<select><option>API</option><option>File upload</option><option>Host-to-host</option></select></label>
+              <button class="primary-button" id="refresh-comparison">Resolve rules</button>
+            </article>
+            <div class="comparison-insight">
+              <span class="insight-icon">!</span>
+              <div><strong>3 delivery differences detected</strong><p>All selected banks inherit the EPC minimum hybrid-address rule; Alpine Bank applies the strictest postal-address overlay.</p></div>
+              <button data-go="validation">Test a message →</button>
+            </div>
+            <article class="panel comparison-panel">
+              <div class="panel-heading"><div><p class="eyebrow">Resolved profile matrix</p><h2>Party postal address</h2></div><div class="bank-toggles" id="bank-toggles"></div></div>
+              <div class="matrix-wrap"><table class="comparison-table" id="comparison-table"></table></div>
+              <p class="table-footnote">Profiles are fictional and demonstrate the RuleRail comparison model. They are not bank implementation guidance.</p>
+            </article>
+          </section>
+
+          <section class="view" id="view-validation" data-view-panel="validation" aria-labelledby="validation-title">
+            <div class="page-heading heading-with-status">
+              <div><p class="eyebrow">Executable requirements</p><h1 id="validation-title">Validation Lab</h1><p>Run a deterministic, explainable check against a selected delivery profile.</p></div>
+              <span class="privacy-note"><i>○</i> Browser-local · no upload</span>
+            </div>
+            <div class="validation-layout">
+              <article class="panel editor-panel">
+                <div class="panel-heading"><div><p class="eyebrow">Test input</p><h2>ISO 20022 sample</h2></div><label class="sample-select">Example<select id="sample-select"><option value="hybrid">Compliant hybrid address</option><option value="unstructured">Unstructured only</option><option value="structured">Fully structured</option><option value="malformed">Malformed XML</option></select></label></div>
+                <div class="editor-meta"><span>pain.001.001.09</span><span>Northstar Bank · SCT Inst · API</span></div>
+                <label class="sr-only" for="xml-input">ISO 20022 XML to validate</label>
+                <textarea id="xml-input" class="code-editor" spellcheck="false"></textarea>
+                <div class="editor-actions"><span>Illustrative address checks; not full schema validation.</span><button class="primary-button" id="validate-button">Run validation <kbd>⌘ ↵</kbd></button></div>
+              </article>
+              <article class="panel results-panel">
+                <div class="panel-heading"><div><p class="eyebrow">Explainable output</p><h2>Validation result</h2></div><span class="status status-slate" id="validation-status">Not run</span></div>
+                <div id="validation-summary" class="validation-empty" aria-live="polite"><span class="empty-check">✓</span><h3>Ready when you are</h3><p>Select an example or paste XML, then run validation.</p></div>
+                <div id="findings-list" class="findings-list"></div>
+                <div class="result-provenance"><span>Rule set</span><strong id="ruleset-value">RR-EPC-2026.11 · draft demo</strong><a href="https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/epc-guidance-document-provision-addresses-under-epc-payment" target="_blank" rel="noreferrer">View governing source ↗</a></div>
+              </article>
+            </div>
+          </section>
+
+          <section class="view" id="view-clients" data-view-panel="clients" aria-labelledby="clients-title">
+            <div class="page-heading heading-with-status">
+              <div><p class="eyebrow">White-label migration portal</p><h1 id="clients-title">Client Readiness</h1><p>Move every impacted corporate from assessment to tested, evidenced readiness.</p></div>
+              <button class="primary-button" id="export-demo">Export view</button>
+            </div>
+            <div class="programme-card">
+              <div><span class="programme-icon">RR</span><div><span class="status status-amber">Programme active</span><h2>EPC Postal Address Migration</h2><p>Owner: Corporate Payments · Current target 15 Nov 2026</p></div></div>
+              <div class="programme-progress"><span><strong>68</strong> assessed</span><span><strong>46</strong> engaged</span><span><strong>28</strong> ready</span><div class="progress-track"><i style="width: 41%"></i></div></div>
+            </div>
+            <article class="panel">
+              <div class="toolbar">
+                <label class="search-field"><span class="sr-only">Search clients</span><i aria-hidden="true">⌕</i><input id="client-search" type="search" placeholder="Search corporate clients" /></label>
+                <label class="select-field">Readiness<select id="client-status-filter"><option value="all">All states</option><option>Ready</option><option>Testing</option><option>Blocked</option><option>Not assessed</option></select></label>
+                <span class="result-count" id="client-count"></span>
+              </div>
+              <div class="action-table-wrap"><table class="data-table client-table"><thead><tr><th>Corporate client</th><th>Segment</th><th>Channel / format</th><th>Latest test</th><th>Readiness</th><th>Owner</th></tr></thead><tbody id="client-table-body"></tbody></table></div>
+              <p class="table-footnote">All organizations and readiness records in this demo are fictional.</p>
+            </article>
+          </section>
+
+          <section class="view" id="view-impact" data-view-panel="impact" aria-labelledby="impact-title">
+            <div class="page-heading">
+              <p class="eyebrow">Traceable change control</p><h1 id="impact-title">Change Impact</h1><p>Connect a standards decision to the exact clients, systems, messages and tests it changes.</p>
+            </div>
+            <div class="change-selector" role="tablist" aria-label="Select a change">
+              <button class="active" role="tab" aria-selected="true" data-change="epc"><span class="source-monogram epc">EPC</span><span><strong>Unstructured address end date</strong><small>Decision pending · current date 15 Nov 2026</small></span></button>
+              <button role="tab" aria-selected="false" data-change="swift"><span class="source-monogram swift">S</span><span><strong>SR2026 payments changes</strong><small>Deferred · replacement date not published</small></span></button>
+            </div>
+            <div class="impact-grid" id="impact-grid"></div>
+          </section>
+
+          <section class="view" id="view-certification" data-view-panel="certification" aria-labelledby="certification-title">
+            <div class="page-heading heading-with-status">
+              <div><p class="eyebrow">Readiness evidence</p><h1 id="certification-title">Certification</h1><p>Package tasks, tests, decisions and evidence into an approval-ready record.</p></div>
+              <span class="status status-amber">Pilot cohort · 72%</span>
+            </div>
+            <div class="cert-layout">
+              <article class="panel">
+                <div class="panel-heading"><div><p class="eyebrow">Client journey</p><h2>Atlas Manufacturing Group</h2></div><span class="status status-blue">Testing</span></div>
+                <div class="stepper">
+                  <div class="step done"><span>✓</span><div><strong>Impact acknowledged</strong><small>Completed 18 Aug · Evidence EV-1042</small></div></div>
+                  <div class="step done"><span>✓</span><div><strong>Implementation contact confirmed</strong><small>Completed 20 Aug · M. Novak</small></div></div>
+                  <div class="step done"><span>✓</span><div><strong>Sample mapping supplied</strong><small>Completed 25 Aug · pain.001.001.09</small></div></div>
+                  <div class="step current"><span>4</span><div><strong>Pass mandatory validation pack</strong><small>8 of 10 scenarios passed · 2 blocking findings</small><button data-go="validation">Open Validation Lab →</button></div></div>
+                  <div class="step"><span>5</span><div><strong>Readiness approval</strong><small>Blocked until mandatory tests pass</small></div></div>
+                  <div class="step"><span>6</span><div><strong>Issue certification</strong><small>Awaiting authorized approval</small></div></div>
+                </div>
+              </article>
+              <aside class="panel evidence-card">
+                <div class="panel-heading"><div><p class="eyebrow">Evidence manifest</p><h2>Certification preview</h2></div></div>
+                <dl><div><dt>Programme</dt><dd>EPC Postal Address Migration</dd></div><div><dt>Profile</dt><dd>NB-SCTI-API · v3.4</dd></div><div><dt>Effective date</dt><dd>15 Nov 2026</dd></div><div><dt>Evidence items</dt><dd>7 attached</dd></div><div><dt>Open blockers</dt><dd class="danger-text">2 validation findings</dd></div></dl>
+                <div class="evidence-hash"><span>Manifest fingerprint</span><code>8e3f…a92c</code></div>
+                <button class="primary-button" disabled>Issue certification</button>
+                <p>Certification remains locked until mandatory acceptance criteria pass.</p>
+              </aside>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="./validation.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
